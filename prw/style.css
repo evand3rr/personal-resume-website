@@ -1,0 +1,112 @@
+*{
+    background-color: darkslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 10px;
+    text-align: center;
+}
+
+p, h1, h2, h3, li{
+    color: white;
+}
+
+.logo{
+    text-align: left;
+    font-size: x-large;
+}
+
+nav{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav li{
+    list-style: none;
+    font-size: x-large;
+    padding-right: 4rem;
+    margin-top: -3rem;
+}
+
+nav a, .experience a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+nav a:hover, .experience a:hover{
+    color: yellow;
+}
+
+.home{
+    padding-top: 4rem;
+    font-size: xx-large;
+}
+
+.home b{
+    color: yellowgreen;
+}
+
+.intro{
+    font-size: x-large;
+    padding-top: 8rem;
+}
+
+.intro h3{
+    padding-bottom: 2rem;
+}
+
+.skills1{
+    padding-top: 8rem;
+    font-size: x-large;
+}
+
+.skills1 li{
+    padding-top: 1rem;
+    color: yellow;
+}
+
+.skills2{
+    padding-top: 2rem;
+    font-size: x-large;
+}
+
+.skills2 li{
+    padding-top: 1rem;
+    color: yellow;
+}
+
+.education{
+    padding-top: 8rem;
+    font-size: x-large;
+}
+
+.education h1{
+    padding-bottom: 1.5rem;
+}
+
+.experience{
+    padding-top: 8rem;
+    font-size: x-large;
+}
+
+.experience div{
+    padding-top: 2rem
+}
+
+footer{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: medium;
+}
